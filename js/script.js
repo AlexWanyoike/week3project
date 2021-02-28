@@ -1,0 +1,36 @@
+function validate(event){
+    event.preventDefault();
+    let myForm = $('#myForm')
+    let name = $('name').val();
+    let email = $('email').val();
+    let message = $('message').val();
+
+    if(name=='' || email=='' || message==''){
+
+        alert('Error! Kindly Include all fields')
+    }
+    else{
+        let link =
+        myForm.attr('action', link)
+        myForm.attr('method',post)
+        let response =`Hey ${name}, your message has been Received`
+        alert(response)
+    }
+
+}
+
+
+$(document).ready(function(){
+    $("#view_details").click(function(){
+      $("#get_started").toggle();
+    });
+    
+        $("#get_started").show();
+
+  
+    });
+
+
+
+
+
