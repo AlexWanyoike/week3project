@@ -106,3 +106,6 @@ footer{
 .access{
     transform: translateY(60%); 
 }
+#react{
+    display: none;
+}

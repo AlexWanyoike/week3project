@@ -19,10 +19,10 @@ function validate(event){
     }
 }
 
-
-
-
-
-
-
-
+$(document).ready(function(){
+    $('.clickable-design').click(function(){
+        $('#act').toggle();
+        $('#view.details').toggle();
+        $('#react').toggle();     
+    })
+}) 
