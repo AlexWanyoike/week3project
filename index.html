@@ -79,23 +79,23 @@
     <div class="row welcome text-center">
         <div class="col-xs-12 col-sm-6 col-md-4">
         <img src="IP3/assets/services_icons/design_icon.png" alt="Design Logo" class="clickable-design" id="view.details" >  
-        <div id="get.started">
-        <h4 class="clickable-design" id="act">DESIGN</h4>
-        <p class="clickable-design" id="react">Our design practice offers a full range if services including branding strategy, interaction and visual design and experience testing. <br>
-        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed. </p>
-        </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="IP3/assets/services_icons/dev_icon.png" alt="Dev Logo"> 
-        <h4>DEVELOPMENT</h4> 
-        <p>All engineers are fluent in the lastest enterprise, mobile and web development technologies.</p>
-        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming. </p>
+            <div id="get.started">
+            <h4 class="clickable-design" id="act">DESIGN</h4>
+            <p class="clickable-design" id="react">Our design practice offers a full range if services including branding strategy, interaction and visual design and experience testing. <br>
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed. </p>
+            </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="IP3/assets/services_icons/product_icon.png" alt="Product Logo">
-            <h4>PRODUCT MANAGEMENT</h4>   
-            <p>Planning and development is itinerative. Because we are constantly coding and testing the products we build are always ready to go live.</p>
-            <p>This itinerative process allows for changes as business requirements evolve.</p>
+            <img src="IP3/assets/services_icons/dev_icon.png" alt="Dev Logo" class="clickable-development" id="view.dev"> 
+            <h4 class="clickable-development" id="new">DEVELOPMENT</h4> 
+            <p class="clickable-development" id="old">All engineers are fluent in the lastest enterprise, and web development technologies. <br>
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming. </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="IP3/assets/services_icons/product_icon.png" alt="Product Logo" class="clickable-project" id="view.skill">
+            <h4 class="clickable-project" id="act">PRODUCT MANAGEMENT</h4>   
+            <p class="clickable-project" id="react">Planning and development is itinerative. Because we are constantly coding and testing the products we build are always ready to go live. <br>
+            This itinerative process allows for changes as business requirements evolve.</p>
         </div>
     </div>
     </div>
@@ -111,6 +111,7 @@
         <div class="row welcome text-center" class="box">
             <div class="box" class="col-xs-12 col-sm-6 col-md-3">
                 <img src="IP3/assets/portfolio/work4.jpg" alt="work4">  
+                <p id="hoover" class="text">STUDIO</p>
             </div>
             <div class="box" class="col-xs-12 col-sm-6 col-md-3">
                 <img src="IP3/assets/portfolio/work3.jpg" alt="work3">  
@@ -154,25 +155,24 @@
             <div class="col-12">
                 <h2 class="display-4">CONTACT US</h2>  
             </div>
-            <form name="mc-embedded-subcribe-form" id="myForm" onsubmit=" validate()" method="post" target="_blank">
+            <form action="https://gmail.us1.list-manage.com/subscribe/post?u=c870bb4abca93f5adc14be03c&amp;id=75d864dff8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate onsubmit=" validate()">
             <div class="row mt-3">
                 <div class="col-md-6">
-                    <input type="text" name="NAME" class="form-control" placeholder="First Name- Last Name" id="name">
+                    <input type="text" name="FNAME" class="required form-control" placeholder="First Name- Last Name" id="mce-FNAME">
                 </div>
                 <div class="col-md-6">
-                    <input type="text" name="EMAIL" class="form-control" placeholder="Email Address" id="email">
+                    <input type="text" name="EMAIL" class="required form-control" placeholder="Input email" id="mce-EMAIL email">
                 </div>
             </div>
             <div class="row my-3">
                 <div class="col-md-12">
-                    <textarea name="MESSAGE" id="message" cols="" rows="10" class="form-control" placeholder="Your Message here..."></textarea>
+                    <textarea name="FMESSAGE" id="mce-MESSAGE comment" cols="" rows="10" class="required form-control" placeholder="Input Your Message here..."></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-lg btn-success" data-bs-toggle="popover" title="Popover title" color="green">Submit</button>
             </form>            
         </div>
     </div>
-
     </div>
     </div>   
     </div>
@@ -204,9 +204,6 @@
     </div>
     </div>
     </div>
-
-
-
 </body>
 </html>
 

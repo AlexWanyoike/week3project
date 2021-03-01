@@ -105,7 +105,15 @@ footer{
  } 
 .access{
     transform: translateY(60%); 
+    background: transparent;
+    opacity: 0.6;
 }
 #react{
+    display: none;
+}
+.orange{
+    background: transparent;
+}
+#old{
     display: none;
 }

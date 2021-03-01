@@ -1,21 +1,19 @@
 function validate(event){
-    event.preventDefault();
+    
     let myForm = $('#myForm')
-    let name = $('name').val();
-    let email = $('email').val();
-    let message = $('message').val();
+    let Name = $('#mce-FNAME').val();
+    let Email = $('#mce-EMAIL').val();
+    let Message = $('#mce-MESSAGE').val();
 
-    if(name=='' || email=='' || message==''){
-        nameInput.addclass('error')
-        alert('Error! Kindly Include all fields')
-        return('false')
+    if(Name=='' || Email=='' || Message==''){
+        alert('Error! Kindly Fill all fields');
     }
     else{
-        let link =
-        myForm.attr('action', link)
-        myForm.attr('method','post')
-        let response =`Hey ${name}, your message has been Received`
-        alert(response)
+        let link = 'https://gmail.us1.list-manage.com/subscribe/post?u=c870bb4abca93f5adc14be03c&amp;id=75d864dff8'
+        myForm.attr('action', link);
+        myForm.attr('method','post');
+        let response =`Hey ${Name}, your message has been Received`;
+        alert(response);
     }
 }
 
@@ -24,7 +22,26 @@ $(document).ready(function(){
         $('#act').toggle();
         $('#view.details').toggle();
         $('#react').toggle();     
-    })
+    });
 }) 
+$(document).ready(function(){
+    $('.clickable-development').click(function(){
+        $('#new').toggle();
+        $('#view.dev').toggle();
+        $('#old').toggle();     
+    });
+}) 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
