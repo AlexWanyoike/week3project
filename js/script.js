@@ -9,7 +9,7 @@ function validate(event){
         alert('Error! Kindly Fill all fields');
     }
     else{
-        let link = 'https://gmail.us1.list-manage.com/subscribe/post?u=c870bb4abca93f5adc14be03c&amp;id=75d864dff8'
+        let link = 'https://gmail.us1.list-manage.com/subscribe/post?u=c870bb4abca93f5adc14be03c&amp;id=75d864dff8';
         myForm.attr('action', link);
         myForm.attr('method','post');
         let response =`Hey ${Name}, your message has been Received`;
