@@ -23,6 +23,12 @@
     transform: translateY(0%);
     
 }
+.carousel-caption h2{
+    font-size: 370%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    
+}
 .carousel-caption h1{
     font-size: 450%;
     text-transform: uppercase;
@@ -32,6 +38,7 @@
     font-size: 150%;
     font-weight: 100;
     text-shadow: 1px 1px 10px #000;
+    transform: translateY(-25%);
 }
 .btn-primary {
     background-color: #6648b1;
@@ -72,4 +79,8 @@ footer{
 }
 .track{
     padding-top: 2rem;
+}
+.hunger{
+    width: 10%;
+    height: 10%;
 }
