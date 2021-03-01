@@ -31,6 +31,13 @@ $(document).ready(function(){
         $('#old').toggle();     
     });
 }) 
+$(document).ready(function(){
+    $('.clickable-project').click(function(){
+        $('#mute').toggle();
+        $('#view.project').toggle();
+        $('#unmute').toggle();     
+    });
+}) 
 
 
 

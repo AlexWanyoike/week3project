@@ -106,7 +106,8 @@ footer{
 .access{
     transform: translateY(60%); 
     background: transparent;
-    opacity: 0.6;
+    background-color: transparent;
+    opacity: 0.4;
 }
 #react{
     display: none;
@@ -115,5 +116,8 @@ footer{
     background: transparent;
 }
 #old{
+    display: none;
+}
+#unmute{
     display: none;
 }
