@@ -153,7 +153,10 @@
     <div class="container">
     <div class="container-fluid padding">
     <div class="row text-center padding">
-    <form name="mc-embedded-subcribe-form" id="myForm" onsubmit="return validate()" target="_blank">
+        <div class="col-12">
+            <h3 class="display-4">CONTACT US</h3>  
+        </div>
+        <form name="mc-embedded-subcribe-form" id="myForm" onsubmit=" validate()" method="post" target="_blank">
         <div class="row mt-3">
             <div class="col-md-6">
                 <input type="text" name="NAME" class="form-control" placeholder="First Name- Last Name" id="name">
@@ -167,8 +170,9 @@
                 <textarea name="MESSAGE" id="message" cols="" rows="5" class="form-control" placeholder="Your Message here..."></textarea>
             </div>
         </div>
-
-    </form>
+        <button type="submit" class="btn btn-lg btn-success" data-bs-toggle="popover" title="Popover title" color="green">Submit</button>
+        
+    </form> 
     </div>
     </div>    
     </div>

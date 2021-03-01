@@ -6,13 +6,14 @@ function validate(event){
     let message = $('message').val();
 
     if(name=='' || email=='' || message==''){
-
+        nameInput.addclass('error')
         alert('Error! Kindly Include all fields')
+        return('false')
     }
     else{
         let link =
         myForm.attr('action', link)
-        myForm.attr('method',post)
+        myForm.attr('method','post')
         let response =`Hey ${name}, your message has been Received`
         alert(response)
     }
