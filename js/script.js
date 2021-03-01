@@ -17,19 +17,10 @@ function validate(event){
         let response =`Hey ${name}, your message has been Received`
         alert(response)
     }
-
 }
 
 
-$(document).ready(function(){
-    $("#view_details").click(function(){
-      $("#get_started").toggle();
-    });
-    
-        $("#get_started").show();
 
-  
-    });
 
 
 
