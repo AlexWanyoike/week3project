@@ -16,7 +16,7 @@ function validate(event){
         alert(response);
     }
 }
-
+///
 $(document).ready(function(){
     $('.clickable-design').click(function(){
         $('#act').toggle();
@@ -38,6 +38,12 @@ $(document).ready(function(){
         $('#unmute').toggle();     
     });
 }) 
+///
+$('.caraousel-caption').hoves(function(){
+    $('.carousel',this).slideToggle('slow');
+},function(){
+    $('.caraousel',this).slideToggle('slow')
+});
 
 
 

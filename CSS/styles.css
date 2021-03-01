@@ -15,8 +15,7 @@
 .carousel-caption h2{
     font-size: 370%;
     text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
-    
+    text-shadow: 1px 1px 15px #000; 
 }
 .carousel-caption h1{
     font-size: 450%;
@@ -107,7 +106,7 @@ footer{
     transform: translateY(60%); 
     background: transparent;
     background-color: transparent;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 #react{
     display: none;
