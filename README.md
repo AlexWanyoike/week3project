@@ -24,3 +24,4 @@ This applicayion aims to see if one is able to make a exact duplicate of another
 * Javascript
 
 ### [License](/home/alex/Desktop/weekthreeproject/IP3/LICENSE)
+### [License](https://github.com/AlexWanyoike/week3project/blob/main/LICENSE)
